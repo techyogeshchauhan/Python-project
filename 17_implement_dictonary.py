@@ -47,4 +47,4 @@ def main():
             print("Invalid choice. Please enter a valid option.")
 
 # Run the main function
-
+main()
