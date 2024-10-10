@@ -18,6 +18,7 @@ def plot_scatter_graph(x_values, y_values, title, x_label, y_label):
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     
+    plt.grid(True)
     # Display the scatter plot
     plt.show()
 

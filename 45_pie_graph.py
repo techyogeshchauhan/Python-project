@@ -17,6 +17,7 @@ def plot_pie_chart(categories, values, title):
     
     # Display the pie chart
     plt.show()
+    
 
 # Example data for the pie chart
 categories = ['Category A', 'Category B', 'Category C', 'Category D']

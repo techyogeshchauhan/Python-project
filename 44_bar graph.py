@@ -18,6 +18,9 @@ def plot_bar_graph(categories, values, title, x_label, y_label):
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     
+    # Add vertical grid lines based on the x-axis categories
+    plt.grid(True, which='both', axis='x', linestyle='--', linewidth=0.5)
+    
     # Display the bar graph
     plt.show()
 

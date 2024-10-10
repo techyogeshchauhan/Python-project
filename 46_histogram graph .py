@@ -18,6 +18,9 @@ def plot_histogram(data, bins, title, x_label, y_label):
     plt.title(title)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
+
+    # Adding grid lines
+    # plt.grid(True)
     
     # Display the histogram
     plt.show()
@@ -28,5 +31,5 @@ data = [12, 15, 13, 10, 12, 14, 17, 18, 16, 19, 20, 10, 15, 14, 13, 18, 19, 20, 
 # Number of bins
 bins = 5
 
-# Call the function to plot the histogram
+# Call the function to plot the histogram with grid lines
 plot_histogram(data, bins, title="Sample Histogram", x_label="Data Ranges", y_label="Frequency")

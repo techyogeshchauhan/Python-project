@@ -18,6 +18,9 @@ def plot_line_graph(x_values, y_values, title, x_label, y_label):
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     
+    # Add grid for both x and y axes
+    plt.grid(True, which='both', axis='both', linestyle='--', linewidth=0.5)
+    
     # Display the graph
     plt.show()
 
